@@ -28,7 +28,7 @@
       </div>
       <div id="verwijderGeschenk">
         <form id="verwijderGeschenk">
-          <select name="geschenken" id="geschenken">
+          <select name="geschenken" id="DelGeschenken">
             <option value="0">Kies het te verwijderen geschenk</option>
           </select>
           <input type="submit" value="wis geschenk" />
@@ -38,11 +38,14 @@
     <h2>voeg een kind toe aan de lijst</h2>
     <form id="addKind">
       <p>
-        <label for="naam">naam:</label> <input type="text" name="voornaam" />
+        <label for="naam">voornaam:</label> <input type="text" name="voornaam" />
       </p>
       <p>
-        <label for="achternaam">naam:</label>
+        <label for="achternaam">achternaam:</label>
         <input type="text" name="achternaam" />
+      </p>
+      <p>
+        <input type="submit" value="toevoegen">
       </p>
     </form>
     <script src="./script/script.js"></script>
