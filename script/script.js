@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 
 const kindSelector = document.querySelector("#kinderen")
 const SelGeschenk = document.querySelector("#geschenken")
